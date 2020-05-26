@@ -1,0 +1,49 @@
+						Segue guia de referência rápido:
+
+Segue abaixo a lista de comandos que deverão ser usados para o preparo e a utilização básica do Git no sistema:
+
+1 - dentro do diretório de trabalho, o seguinte comando deverá ser utilizado para que o rastreamento seja iniciado:
+
+	git init
+
+2 - logo após a criação dos arquivos que serão rastreados, deve-se adicionar todos eles manualmente, ou todo
+o diretório, com os seguintes comandos:
+
+	git add . (para todo o diretório) ou git add nomedoarquivo (para que só o arquivo seja adicionado)
+
+3 - após a insersão do arquivo e seu rastreamento dentro do diretório, deve-se utilizar o comando para marcar o arquivo que você 
+deseja que o Git monitore (com marcações temporais pontuais):
+
+	git commit -m mensagemparaidentificaçãodocommit
+
+4 - há um comando para que o estado do diretório e dos arquivos seja verificado caso precisem de alteração ou de alguma
+intervenção:
+
+	git status
+
+5 - também é possível verificar de forma detalhada todas as alterações,ou seja, os commits efetuados nos diretórios/arquivos:
+
+	git log
+
+6 - os passos, após modificações dos arquivos para que suas informações sejam atualizadas e preparados e atualizados é:
+
+	git add nomedoarquivo
+	git commnit -m nomedoarquivo
+
+7 - para adicionar os diretório (repositório local e seus arquivos respectivamente), deve incluir o repositório remoto 
+com o seguinte comando:
+
+	git remote add origin urldorepositório
+
+8 - depois da insersão do repositório remoto, para que haja a sincronização entre o repositório local, o comando executado
+será (mas deve-se, antes, realizar a sequência de comandos do passo 6):
+
+	git pull (será solicitado que o usuário insira as informações de login para acesso ao repositório)
+
+9 - para que as alterações sejam enviadas ao repositório, o comando é:
+
+	git push
+
+10 - inserção das informações sobre brachs
+
+	
